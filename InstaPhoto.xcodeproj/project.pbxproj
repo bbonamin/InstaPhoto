@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4536107A168DCBC600818733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45361079168DCBC600818733 /* UIKit.framework */; };
+		4536107C168DCBC600818733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4536107B168DCBC600818733 /* Foundation.framework */; };
+		4536107E168DCBC600818733 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4536107D168DCBC600818733 /* CoreGraphics.framework */; };
+		45361084168DCBC600818733 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45361082168DCBC600818733 /* InfoPlist.strings */; };
+		45361086168DCBC600818733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45361085168DCBC600818733 /* main.m */; };
+		4536108A168DCBC600818733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45361089168DCBC600818733 /* AppDelegate.m */; };
+		4536108C168DCBC600818733 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536108B168DCBC600818733 /* Default.png */; };
+		4536108E168DCBC600818733 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536108D168DCBC600818733 /* Default@2x.png */; };
+		45361090168DCBC600818733 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536108F168DCBC600818733 /* Default-568h@2x.png */; };
+		45361093168DCBC600818733 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45361092168DCBC600818733 /* FirstViewController.m */; };
+		45361095168DCBC600818733 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 45361094168DCBC600818733 /* first.png */; };
+		45361097168DCBC600818733 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45361096168DCBC600818733 /* first@2x.png */; };
+		4536109A168DCBC600818733 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45361099168DCBC600818733 /* SecondViewController.m */; };
+		4536109C168DCBC600818733 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536109B168DCBC600818733 /* second.png */; };
+		4536109E168DCBC600818733 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536109D168DCBC600818733 /* second@2x.png */; };
+		453610A1168DCBC600818733 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4536109F168DCBC600818733 /* FirstViewController.xib */; };
+		453610A4168DCBC700818733 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453610A2168DCBC700818733 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45361075168DCBC600818733 /* InstaPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45361079168DCBC600818733 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4536107B168DCBC600818733 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4536107D168DCBC600818733 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45361081168DCBC600818733 /* InstaPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaPhoto-Info.plist"; sourceTree = "<group>"; };
+		45361083168DCBC600818733 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45361085168DCBC600818733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45361087168DCBC600818733 /* InstaPhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		45361088168DCBC600818733 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45361089168DCBC600818733 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4536108B168DCBC600818733 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4536108D168DCBC600818733 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4536108F168DCBC600818733 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		45361091168DCBC600818733 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		45361092168DCBC600818733 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		45361094168DCBC600818733 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		45361096168DCBC600818733 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		45361098168DCBC600818733 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		45361099168DCBC600818733 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4536109B168DCBC600818733 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4536109D168DCBC600818733 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		453610A0168DCBC600818733 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		453610A3168DCBC700818733 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45361072168DCBC600818733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4536107A168DCBC600818733 /* UIKit.framework in Frameworks */,
+				4536107C168DCBC600818733 /* Foundation.framework in Frameworks */,
+				4536107E168DCBC600818733 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4536106A168DCBC600818733 = {
+			isa = PBXGroup;
+			children = (
+				4536107F168DCBC600818733 /* InstaPhoto */,
+				45361078168DCBC600818733 /* Frameworks */,
+				45361076168DCBC600818733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45361076168DCBC600818733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45361075168DCBC600818733 /* InstaPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45361078168DCBC600818733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45361079168DCBC600818733 /* UIKit.framework */,
+				4536107B168DCBC600818733 /* Foundation.framework */,
+				4536107D168DCBC600818733 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4536107F168DCBC600818733 /* InstaPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				45361088168DCBC600818733 /* AppDelegate.h */,
+				45361089168DCBC600818733 /* AppDelegate.m */,
+				45361091168DCBC600818733 /* FirstViewController.h */,
+				45361092168DCBC600818733 /* FirstViewController.m */,
+				45361094168DCBC600818733 /* first.png */,
+				45361096168DCBC600818733 /* first@2x.png */,
+				45361098168DCBC600818733 /* SecondViewController.h */,
+				45361099168DCBC600818733 /* SecondViewController.m */,
+				4536109B168DCBC600818733 /* second.png */,
+				4536109D168DCBC600818733 /* second@2x.png */,
+				4536109F168DCBC600818733 /* FirstViewController.xib */,
+				453610A2168DCBC700818733 /* SecondViewController.xib */,
+				45361080168DCBC600818733 /* Supporting Files */,
+			);
+			path = InstaPhoto;
+			sourceTree = "<group>";
+		};
+		45361080168DCBC600818733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45361081168DCBC600818733 /* InstaPhoto-Info.plist */,
+				45361082168DCBC600818733 /* InfoPlist.strings */,
+				45361085168DCBC600818733 /* main.m */,
+				45361087168DCBC600818733 /* InstaPhoto-Prefix.pch */,
+				4536108B168DCBC600818733 /* Default.png */,
+				4536108D168DCBC600818733 /* Default@2x.png */,
+				4536108F168DCBC600818733 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45361074168DCBC600818733 /* InstaPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453610A7168DCBC700818733 /* Build configuration list for PBXNativeTarget "InstaPhoto" */;
+			buildPhases = (
+				45361071168DCBC600818733 /* Sources */,
+				45361072168DCBC600818733 /* Frameworks */,
+				45361073168DCBC600818733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaPhoto;
+			productName = InstaPhoto;
+			productReference = 45361075168DCBC600818733 /* InstaPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4536106C168DCBC600818733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Bruno Bonamin";
+			};
+			buildConfigurationList = 4536106F168DCBC600818733 /* Build configuration list for PBXProject "InstaPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4536106A168DCBC600818733;
+			productRefGroup = 45361076168DCBC600818733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45361074168DCBC600818733 /* InstaPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45361073168DCBC600818733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45361084168DCBC600818733 /* InfoPlist.strings in Resources */,
+				4536108C168DCBC600818733 /* Default.png in Resources */,
+				4536108E168DCBC600818733 /* Default@2x.png in Resources */,
+				45361090168DCBC600818733 /* Default-568h@2x.png in Resources */,
+				45361095168DCBC600818733 /* first.png in Resources */,
+				45361097168DCBC600818733 /* first@2x.png in Resources */,
+				4536109C168DCBC600818733 /* second.png in Resources */,
+				4536109E168DCBC600818733 /* second@2x.png in Resources */,
+				453610A1168DCBC600818733 /* FirstViewController.xib in Resources */,
+				453610A4168DCBC700818733 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45361071168DCBC600818733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45361086168DCBC600818733 /* main.m in Sources */,
+				4536108A168DCBC600818733 /* AppDelegate.m in Sources */,
+				45361093168DCBC600818733 /* FirstViewController.m in Sources */,
+				4536109A168DCBC600818733 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45361082168DCBC600818733 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45361083168DCBC600818733 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4536109F168DCBC600818733 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453610A0168DCBC600818733 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		453610A2168DCBC700818733 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453610A3168DCBC700818733 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		453610A5168DCBC700818733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		453610A6168DCBC700818733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453610A8168DCBC700818733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaPhoto/InstaPhoto-Prefix.pch";
+				INFOPLIST_FILE = "InstaPhoto/InstaPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		453610A9168DCBC700818733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaPhoto/InstaPhoto-Prefix.pch";
+				INFOPLIST_FILE = "InstaPhoto/InstaPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4536106F168DCBC600818733 /* Build configuration list for PBXProject "InstaPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453610A5168DCBC700818733 /* Debug */,
+				453610A6168DCBC700818733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453610A7168DCBC700818733 /* Build configuration list for PBXNativeTarget "InstaPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453610A8168DCBC700818733 /* Debug */,
+				453610A9168DCBC700818733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4536106C168DCBC600818733 /* Project object */;
+}
