@@ -7,10 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
-#import "FirstViewController.h"
-
-#import "SecondViewController.h"
+#import "FeedViewController.h"
+#import "FavoritesViewController.h"
+#import "ProfileViewController.h"
 
 @implementation AppDelegate
 
@@ -18,10 +17,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    FeedViewController *feedViewController = [[FeedViewController alloc] init];
+    FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
+    ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
+    
+    
+    
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[feedViewController, favoritesViewController, profileViewController];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

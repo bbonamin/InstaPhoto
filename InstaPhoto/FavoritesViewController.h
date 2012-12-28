@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FavoritesViewController.h
 //  InstaPhoto
 //
 //  Created by Bruno Bonamin on 28/12/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface FavoritesViewController : UIViewController
 
 @end

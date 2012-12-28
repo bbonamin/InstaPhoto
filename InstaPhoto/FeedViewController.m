@@ -1,33 +1,35 @@
 //
-//  FirstViewController.m
+//  FeedViewController.m
 //  InstaPhoto
 //
 //  Created by Bruno Bonamin on 28/12/12.
 //  Copyright (c) 2012 Bruno Bonamin. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "FeedViewController.h"
 
-@interface FirstViewController ()
+@interface FeedViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation FeedViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        // Custom initialization
+        self.title = @"Feed";
+        self.tabBarItem.image = [UIImage imageNamed:@"42-photos"];
     }
     return self;
 }
-							
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning

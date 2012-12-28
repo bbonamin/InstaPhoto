@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ProfileViewController.h
 //  InstaPhoto
 //
 //  Created by Bruno Bonamin on 28/12/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ProfileViewController : UIViewController
 
 @end

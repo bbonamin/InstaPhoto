@@ -1,33 +1,35 @@
 //
-//  SecondViewController.m
+//  FavoritesViewController.m
 //  InstaPhoto
 //
 //  Created by Bruno Bonamin on 28/12/12.
 //  Copyright (c) 2012 Bruno Bonamin. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "FavoritesViewController.h"
 
-@interface SecondViewController ()
+@interface FavoritesViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation FavoritesViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+        // Custom initialization
+        self.title = @"Favorites";
+        self.tabBarItem.image = [UIImage imageNamed:@"28-star"];
     }
     return self;
 }
-							
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor blueColor];
 }
 
 - (void)didReceiveMemoryWarning

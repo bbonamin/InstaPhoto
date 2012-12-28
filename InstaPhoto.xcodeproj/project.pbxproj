@@ -16,14 +16,18 @@
 		4536108C168DCBC600818733 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536108B168DCBC600818733 /* Default.png */; };
 		4536108E168DCBC600818733 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536108D168DCBC600818733 /* Default@2x.png */; };
 		45361090168DCBC600818733 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536108F168DCBC600818733 /* Default-568h@2x.png */; };
-		45361093168DCBC600818733 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45361092168DCBC600818733 /* FirstViewController.m */; };
 		45361095168DCBC600818733 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 45361094168DCBC600818733 /* first.png */; };
 		45361097168DCBC600818733 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45361096168DCBC600818733 /* first@2x.png */; };
-		4536109A168DCBC600818733 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45361099168DCBC600818733 /* SecondViewController.m */; };
 		4536109C168DCBC600818733 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536109B168DCBC600818733 /* second.png */; };
 		4536109E168DCBC600818733 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4536109D168DCBC600818733 /* second@2x.png */; };
-		453610A1168DCBC600818733 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4536109F168DCBC600818733 /* FirstViewController.xib */; };
-		453610A4168DCBC700818733 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453610A2168DCBC700818733 /* SecondViewController.xib */; };
+		453610AE168DD05100818733 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 453610AA168DD05100818733 /* 19-gear.png */; };
+		453610AF168DD05100818733 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 453610AB168DD05100818733 /* 28-star.png */; };
+		453610B0168DD05100818733 /* 42-photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 453610AC168DD05100818733 /* 42-photos.png */; };
+		453610B1168DD05100818733 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 453610AD168DD05100818733 /* 111-user.png */; };
+		453610B4168DD1B700818733 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453610B3168DD1B700818733 /* FeedViewController.m */; };
+		453610B7168DD2C900818733 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453610B6168DD2C800818733 /* FavoritesViewController.m */; };
+		453610BA168DD33E00818733 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453610B9168DD33E00818733 /* ProfileViewController.m */; };
+		453610BC168DD4DB00818733 /* bruno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 453610BB168DD4DA00818733 /* bruno.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,16 +44,21 @@
 		4536108B168DCBC600818733 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4536108D168DCBC600818733 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4536108F168DCBC600818733 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		45361091168DCBC600818733 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		45361092168DCBC600818733 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		45361094168DCBC600818733 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		45361096168DCBC600818733 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		45361098168DCBC600818733 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		45361099168DCBC600818733 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		4536109B168DCBC600818733 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		4536109D168DCBC600818733 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		453610A0168DCBC600818733 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		453610A3168DCBC700818733 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		453610AA168DD05100818733 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		453610AB168DD05100818733 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		453610AC168DD05100818733 /* 42-photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42-photos.png"; sourceTree = "<group>"; };
+		453610AD168DD05100818733 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		453610B2168DD1B700818733 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		453610B3168DD1B700818733 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		453610B5168DD2C800818733 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		453610B6168DD2C800818733 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		453610B8168DD33E00818733 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		453610B9168DD33E00818733 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		453610BB168DD4DA00818733 /* bruno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bruno.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,16 +107,21 @@
 			children = (
 				45361088168DCBC600818733 /* AppDelegate.h */,
 				45361089168DCBC600818733 /* AppDelegate.m */,
-				45361091168DCBC600818733 /* FirstViewController.h */,
-				45361092168DCBC600818733 /* FirstViewController.m */,
+				453610B8168DD33E00818733 /* ProfileViewController.h */,
+				453610B9168DD33E00818733 /* ProfileViewController.m */,
+				453610BB168DD4DA00818733 /* bruno.jpg */,
+				453610B5168DD2C800818733 /* FavoritesViewController.h */,
+				453610B6168DD2C800818733 /* FavoritesViewController.m */,
+				453610B2168DD1B700818733 /* FeedViewController.h */,
+				453610B3168DD1B700818733 /* FeedViewController.m */,
+				453610AA168DD05100818733 /* 19-gear.png */,
+				453610AB168DD05100818733 /* 28-star.png */,
+				453610AC168DD05100818733 /* 42-photos.png */,
+				453610AD168DD05100818733 /* 111-user.png */,
 				45361094168DCBC600818733 /* first.png */,
 				45361096168DCBC600818733 /* first@2x.png */,
-				45361098168DCBC600818733 /* SecondViewController.h */,
-				45361099168DCBC600818733 /* SecondViewController.m */,
 				4536109B168DCBC600818733 /* second.png */,
 				4536109D168DCBC600818733 /* second@2x.png */,
-				4536109F168DCBC600818733 /* FirstViewController.xib */,
-				453610A2168DCBC700818733 /* SecondViewController.xib */,
 				45361080168DCBC600818733 /* Supporting Files */,
 			);
 			path = InstaPhoto;
@@ -186,8 +200,11 @@
 				45361097168DCBC600818733 /* first@2x.png in Resources */,
 				4536109C168DCBC600818733 /* second.png in Resources */,
 				4536109E168DCBC600818733 /* second@2x.png in Resources */,
-				453610A1168DCBC600818733 /* FirstViewController.xib in Resources */,
-				453610A4168DCBC700818733 /* SecondViewController.xib in Resources */,
+				453610AE168DD05100818733 /* 19-gear.png in Resources */,
+				453610AF168DD05100818733 /* 28-star.png in Resources */,
+				453610B0168DD05100818733 /* 42-photos.png in Resources */,
+				453610B1168DD05100818733 /* 111-user.png in Resources */,
+				453610BC168DD4DB00818733 /* bruno.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +217,9 @@
 			files = (
 				45361086168DCBC600818733 /* main.m in Sources */,
 				4536108A168DCBC600818733 /* AppDelegate.m in Sources */,
-				45361093168DCBC600818733 /* FirstViewController.m in Sources */,
-				4536109A168DCBC600818733 /* SecondViewController.m in Sources */,
+				453610B4168DD1B700818733 /* FeedViewController.m in Sources */,
+				453610B7168DD2C900818733 /* FavoritesViewController.m in Sources */,
+				453610BA168DD33E00818733 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,22 +232,6 @@
 				45361083168DCBC600818733 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4536109F168DCBC600818733 /* FirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				453610A0168DCBC600818733 /* en */,
-			);
-			name = FirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		453610A2168DCBC700818733 /* SecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				453610A3168DCBC700818733 /* en */,
-			);
-			name = SecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
