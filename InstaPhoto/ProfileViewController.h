@@ -10,5 +10,5 @@
 
 @interface ProfileViewController : UIViewController
 
-@property (weak, nonatomic) UIScrollView *scrollView;
+@property (strong, nonatomic) UIScrollView *scrollView;
 @end
