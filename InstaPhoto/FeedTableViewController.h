@@ -1,5 +1,5 @@
 //
-//  FeedViewController.h
+//  FeedTableViewController.h
 //  InstaPhoto
 //
 //  Created by Bruno Bonamin on 28/12/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FeedViewController : UIViewController
-//- (void)showProfile:(UIButton *)sender;
+@interface FeedTableViewController : UITableViewController
+@property (weak, nonatomic) NSArray *cellArray;
 @end

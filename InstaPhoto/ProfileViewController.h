@@ -11,4 +11,7 @@
 @interface ProfileViewController : UIViewController
 
 @property (strong, nonatomic) UIScrollView *scrollView;
+
+- (void) showZoomedImage:(UIButton *) sender;
+
 @end

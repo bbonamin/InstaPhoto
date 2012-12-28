@@ -37,9 +37,14 @@
     
     self.view.backgroundColor = [UIColor yellowColor];
     
-    UIImageView *brunoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bruno.jpg"]];
+//    UIImageView *brunoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bruno.jpg"]];
+    UIButton *brunoView = [UIButton buttonWithType:UIButtonTypeCustom];
+    [brunoView setImage:[UIImage imageNamed:@"bruno.jpg" ] forState:UIControlStateNormal];
+    [brunoView setImage:[UIImage imageNamed:@"bruno.jpg" ] forState:UIControlStateHighlighted];
+    
     brunoView.frame = CGRectMake(160, 10, 140, 100 );
     [self.scrollView addSubview:brunoView];
+    [brunoView addTarget:self action:@selector(showZoomedImage:) forControlEvents:UIControlEventTouchUpInside];
     
     UILabel *nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 110, 200, 40)];
     nameLabel.text = @"StarFleet Commander";
@@ -66,4 +71,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) showZoomedImage:(UIButton *) sender
+{
+    NSLog(@"Showing zoomed image!");
+    UIViewController *zoomedImageVC = [[UIViewController alloc] init];
+    zoomedImageVC.view.frame = self.view.frame;
+    zoomedImageVC.title = @"Profile picture";
+    
+    UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bruno.jpg" ]];
+    [image setContentMode:UIViewContentModeScaleAspectFit];
+    image.frame = zoomedImageVC.view.frame;
+    [zoomedImageVC.view addSubview:image];
+    [self.navigationController pushViewController:zoomedImageVC animated:YES];
+}
 @end

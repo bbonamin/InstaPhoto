@@ -10,6 +10,7 @@
 #import "FeedViewController.h"
 #import "FavoritesViewController.h"
 #import "ProfileViewController.h"
+#import "FeedTableViewController.h"
 
 @implementation AppDelegate
 
@@ -17,14 +18,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    FeedViewController *feedViewController = [[FeedViewController alloc] init];
+    
+    FeedTableViewController *feedTableViewController = [[FeedTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController *feedNavController = [[UINavigationController alloc] initWithRootViewController:feedTableViewController];
     FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
     ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
     
+    UINavigationController *profileNavVC = [[UINavigationController alloc] initWithRootViewController:profileViewController];
     
     
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[feedViewController, favoritesViewController, profileViewController];
+    self.tabBarController.viewControllers = @[feedNavController, favoritesViewController, profileNavVC];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

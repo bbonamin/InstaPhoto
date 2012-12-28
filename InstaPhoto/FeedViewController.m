@@ -7,7 +7,8 @@
 //
 
 #import "FeedViewController.h"
-
+#import "ProfileViewController.h"
+    
 @interface FeedViewController ()
 
 @end
@@ -29,7 +30,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor greenColor];
+//    
+//    UIButton *favButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    favButton.frame = CGRectMake(60, 100, 200, 44);
+//    [favButton setTitle:@"Profile" forState:UIControlStateNormal];
+//    [self.view addSubview:favButton];
+//    
+//    [favButton addTarget:self action:@selector(showProfile:) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,4 +47,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+//- (void)showProfile:(UIButton *)sender
+//{
+//    ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
+//    [self.navigationController pushViewController:profileViewController animated:YES];
+//}
 @end
