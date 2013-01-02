@@ -7,6 +7,7 @@
 //
 
 #import "FeedTableViewController.h"
+#import "AFJSONRequestOperation.h"
 
 @interface FeedTableViewController ()
 
@@ -35,7 +36,18 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.cellArray = @[@"A little", @"Thing to say", @"Baby baby", @"Wild World", @"Oh yes"];
+    NSURL *url = [[NSURL alloc] initWithString: @"https://api.github.com/users/bbonamin/starred"];
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation
+                                         JSONRequestOperationWithRequest:request
+                                         success:^(NSURLRequest *request,NSHTTPURLResponse *response, id JSON){
+                                             self.repos = JSON;
+                                             NSLog(@"json: %@", JSON);
+                                             [self.tableView reloadData];
+                                         }failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON){
+                                             NSLog(@"NSError: %@", error.localizedDescription);
+                                         }];
+    [operation start];
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,7 +67,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return self.cellArray.count;
+    return self.repos.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -65,9 +77,10 @@
     
     // Configure the cell...
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
-    cell.textLabel.text = self.cellArray[indexPath.row];
+    cell.textLabel.text = self.repos[indexPath.row][@"full_name"];
+    cell.detailTextLabel.text = self.repos[indexPath.row][@"description"];
     return cell;
 }
 
@@ -122,5 +135,4 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
 }
-NSLog
 @end

@@ -11,7 +11,8 @@
 @interface ProfileViewController : UIViewController
 
 @property (strong, nonatomic) UIScrollView *scrollView;
+@property (strong,nonatomic) NSDictionary *userGithubProfile;
 
 - (void) showZoomedImage:(UIButton *) sender;
-
+- (void) requestSuccessful;
 @end

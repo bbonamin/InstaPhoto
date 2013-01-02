@@ -10,4 +10,5 @@
 
 @interface FeedTableViewController : UITableViewController
 @property (weak, nonatomic) NSArray *cellArray;
+@property (weak, nonatomic) NSArray *repos;
 @end
